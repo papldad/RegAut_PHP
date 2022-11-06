@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+}
+
+header .content {
+    background-color: lightgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+header form {
+    flex-direction: row;
+}
+
+.input-checker>input[type='submit'] {
+    position: relative;
+}
+
+.input-checker label {
+    position: absolute;
+    padding-left: 0.1em;
+    color: red;
+}
+
+.input-error {
+    border: 0.1em red solid;
+}
+
+#my_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+#my_profile h2 {
+    align-self: center;
+}
+
+.block_password_edit_form {
+    background-color: lightgray;
+}
+
+.block_password_edit_form #password_edit_form {
+    display: none;
+}
